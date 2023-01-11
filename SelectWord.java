@@ -32,9 +32,9 @@ public class SelectWord extends JFrame {
 
             //启用MySQL
             Class.forName("com.mysql.cj.jdbc.Driver");
-            String url = "jdbc:mysql://localhost:3306/javapra";
+            String url = "jdbc:mysql://localhost:3306/数据库名称";
             String user = "root";
-            String pwd = "123456";
+            String pwd = "******";
             Connection connection = DriverManager.getConnection(url,user,pwd);
 
             jButton.addActionListener(new ActionListener() {
